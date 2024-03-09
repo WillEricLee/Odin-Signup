@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url('./fonts/Norse-Bold.otf');
+}
+
 body {
     display:flex;
     flex-direction: row;
@@ -26,9 +31,7 @@ body {
 
     min-width: 100%;
 
-    background-color: rgb(0,0,0, .4)
-
-
+    background-color: rgb(0,0,0, .4);
 }
 #odin-image {
     display:flex;
@@ -38,17 +41,20 @@ body {
 #odin-text {
     opacity: 1;
     color:white;
-    font-size: 96px;
+    font-size: 128px;
     margin:0px;
+    font-family: 'Norse-Bold';
 }
 #credit {
     position: absolute;
     bottom: 0;
-    color: gray;
+    color: lightgrey;
     text-align: center;
+    font-family:'sans-serif';  
 }
 #credit a {
-    color:gray;
+    color:lightgray;
+    font-family:'sans-serif';
 }
 
 .right{
