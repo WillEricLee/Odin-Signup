@@ -18,8 +18,8 @@
 
     <div class="right">
         <div class="info-half">
-            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h2>
-            <h2>You <i>know</i> you want to.</h2>
+            <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h1>
+            <h1>You <i>know</i> you want to.</h1>
         </div>
 
         <div class="form-half">
@@ -27,29 +27,41 @@
 
                 <!-- Form starts here -->
                 <div class="entry-half">
-                    <h2>Let's do this!</h2>
-                    <fieldset>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" maxlength="25">
+                    <h1>Let's do this!</h1>
+                    <fieldset class="row-one">
+                        <div class="entry-box firstname">
+                            <label class="input-label" for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" maxlength="25">
+                        </div>
         
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name" maxlength="25">
+                        <div class="entry-box lastname">
+                            <label class="input-label" for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" maxlength="25">
+                        </div>
                     </fieldset>
         
-                    <fieldset>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" placeholder="you@example.com" maxlength="30">
+                    <fieldset class="row-two">
+                        <div class="entry-box email">
+                            <label class="input-label" for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" maxlength="30">
+                        </div>
                         
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-867-5309">
+                        <div class="entry-box phone">
+                            <label class="input-label" for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-867-5309">
+                        </div>
                     </fieldset>
     
-                    <fieldset>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                    <fieldset class="row-three">
+                        <div class="entry-box password">
+                            <label class="input-label" for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
                         
-                        <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="password-confirm" name="password-confirm">
+                        <div class="entry-box password-confirm">
+                            <label class="input-label" for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-confirm" name="password-confirm">
+                        </div>
                     </fieldset>
                 </div>
 
