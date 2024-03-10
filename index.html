@@ -57,13 +57,13 @@
                     <fieldset class="row-three">
                         <div class="entry-box password">
                             <label class="input-label" for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password">
-                            <span class="error-text password-error">Passwords do not match</span>
+                            <input type="password" id="password" name="password" minlength="8" placeholder="">
+                            <span class="error-text password-error">Password must be at least 8 characters</span>
                         </div>
                         
                         <div class="entry-box password-confirm">
                             <label class="input-label" for="password-confirm">CONFIRM PASSWORD</label>
-                            <input type="password" id="password-confirm" name="password-confirm">
+                            <input type="password" id="password-confirm" name="password-confirm" minlength="8" placeholder="">
                         </div>
                     </fieldset>
                 </div>

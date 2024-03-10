@@ -102,16 +102,16 @@ fieldset {
     margin: 2px;
     opacity: 0;
 }
+.error-text {
+    display:none;
+    color:red;
+    margin:0px;
+}
 .input-label {
     font-size: 18px;
     color: #333333;
     font-family: sans-serif;
     letter-spacing: 2px;
-}
-.error-text {
-    opacity: 0;
-    color:red;
-    margin:0px;
 }
 input { 
     width: 400px;
@@ -130,7 +130,7 @@ input:invalid {
 }
 input:invalid + .error-text {
     font-family: sans-serif;
-    opacity: 1;
+    display:block;
 }
 
 
